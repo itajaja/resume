@@ -1,0 +1,8 @@
+# latex files
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.gz
+*.pdf
