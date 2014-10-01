@@ -9,6 +9,8 @@
 \documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 \usepackage[light,condensed,math]{iwona}
 \usepackage[utf8]{inputenc}
+\usepackage{etoolbox}
+
 % \usepackage[T1]{fontenc}
 % \usepackage{babel}
 % moderncv themes
@@ -16,6 +18,16 @@
 \moderncvcolor{grey}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 \renewcommand{\familydefault}{iwona}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 \nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+\makeatletter
+\newcommand*{\homepageA}[1]{\def\@homepageA{#1}}
+\newcommand*{\homepageB}[1]{\def\@homepageB{#1}}
+\patchcmd{\maketitle}% <cmd>
+  {\ifthenelse{\isundefined{\@homepage}}{}{\addtomaketitle{\homepagesymbol\httplink{\@homepage}}}}% <search>
+  {\ifthenelse{\isundefined{\@homepageA}}{}{\addtomaketitle{\homepagesymbol\httplink{\@homepageA}}}%
+   \ifthenelse{\isundefined{\@homepageB}}{}{\addtomaketitle{\homepagesymbol\httplink{\@homepageB}}}}% <replace>
+  {}{}% <success><failure>
+\makeatother
 
 % character encoding
 %\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
@@ -35,7 +47,8 @@
 % \mobile{+1~(312)~459~2081}                          % optional, remove / comment the line if not wanted
 % \phone{+2~(345)~678~901}                           % optional, remove / comment the line if not wanted
 % \fax{+3~(456)~789~012}                             % optional, remove / comment the line if not wanted
-\homepage{linkedin.com/in/giacomotag - github.com/itajaja}                         % optional, remove / comment the line if not wanted
+\homepageA{github.com/itajaja}                         % optional, remove / comment the line if not wanted
+\homepageB{linkedin.com/in/giacomotag}                         % optional, remove / comment the line if not wanted
 % \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 % \photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 % \quote{"If I have seen further, it is by standing on the shoulders of giants"\\Isaac Newton}                                 % optional, remove / comment the line if not wanted
