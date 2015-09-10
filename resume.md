@@ -2,7 +2,7 @@ name:Giacomo Tagliabue
 email:giacomo.tag@gmail.com
 github:https://github.com/itajaja
 linkedin:https://linkedin.com/in/giacomotag
-website:giacomotag.io
+website:www.giacomotag.io
 
 Hi, I am Giacomo, a full stack developer, I like crafting software that matters. I am interested in the web, programming language theory, and software architecture.
 
@@ -28,7 +28,7 @@ I am currently working as a software engineer at Hyla Soft. I mainly focus on bu
   - integration of different systems and protocols: ERP, Machine controllers (through OPC).
   - Technologies used: C#, ServiceStack, MSSQL, Typescript, SASS, Angular Material, Gulp, Grunt, Bower, Appveyor CI, electron
 - *Hyla Soft SW Development Initiative*: I helped Hyla Soft to improve the results of their software development projects, by fostering best practices, standard tools and products, an healthy engineering culture, and modernizing the technological stack.
-  - The results are partly summarized in these slides: [goo.gl/cCXYfW](https://goo.gl/cCXYfW)
+  - The results are partly summarized in these slides: https://goo.gl/cCXYfW
 
 ### Research Assistant -- DARPA / University of Illinois at Chicago -- 2012-2013
 Employed in DARPA's CSFV (Crowd Sourced Formal Verification) Project. CSFV investigates extensions of compilers' optimizations using formal verification.

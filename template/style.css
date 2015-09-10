@@ -1,18 +1,21 @@
 body {
   font-family: 'Cutive Mono';
   line-height: 1.8em;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 h1, h2 {
+  font-family: monospace;
   font-variant: small-caps;
   text-decoration: underline;
+  font-weight: initial;
 }
 
 h3, h4, h5, h6 {
+  font-family: monospace;
   font-style: initial;
   text-decoration: underline;
-  /*font-size: inherit;*/
+  font-size: inherit;
   margin: 0;
   font-weight: initial;
 }
@@ -46,7 +49,15 @@ ul li:before {
 
 #watermark {
   float: right;
-  margin-top: 6em;
+  margin-top: 7em;
+}
+
+/*cutive mono*/
+@font-face {
+  font-family: 'Cutive Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('CutiveMono-Regular.ttf');
 }
 
 /*mono social icon font*/
