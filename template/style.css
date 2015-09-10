@@ -1,0 +1,77 @@
+body {
+  font-family: 'Cutive Mono';
+  line-height: 1.8em;
+  font-size: 11px;
+}
+
+h1, h2 {
+  font-variant: small-caps;
+  text-decoration: underline;
+}
+
+h3, h4, h5, h6 {
+  font-style: initial;
+  text-decoration: underline;
+  /*font-size: inherit;*/
+  margin: 0;
+  font-weight: initial;
+}
+
+p {
+  margin-top: 0;
+}
+
+em {
+  font-style: initial;
+  text-decoration: underline;
+}
+
+ul li {
+  list-style-type: none;
+  margin-left: -10px;
+}
+
+ul li:before {
+  content: '- ';
+}
+
+#contacts {
+  text-align: center;
+}
+
+#contacts a {
+  color: gray;
+  padding-right: 4em;
+}
+
+#watermark {
+  float: right;
+  margin-top: 6em;
+}
+
+/*mono social icon font*/
+@font-face {
+  font-family: 'Mono Social Icons Font';
+  src: url('MonoSocialIconsFont-1.10.eot');
+  src: url('MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+       url('MonoSocialIconsFont-1.10.woff') format('woff'),
+       url('MonoSocialIconsFont-1.10.ttf') format('truetype'),
+       url('MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+  src: url('MonoSocialIconsFont-1.10.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.symbol {
+  font-family: 'Mono Social Icons Font';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}

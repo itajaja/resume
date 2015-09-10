@@ -1,0 +1,9 @@
+{
+  "format": "Letter",
+  "border": {
+    "top": "1in",
+    "right": "1.in",
+    "bottom": "1in",
+    "left": "1in"
+  }
+}

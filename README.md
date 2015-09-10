@@ -1,10 +1,8 @@
-resume
-======
+My resume. Built with [markdawn](https://github.com/itajaja/markdawn).
 
-my resume.
-
-To compile on windows:
-
+Build it with
 ````
-texify -b -p --tex-option="--synctex=1" resume.tex
+npm install -g markdawn
+markdawn resume.md -i template/index.html
 ````
+or just download it: [resume.pdf](resume.pdf)

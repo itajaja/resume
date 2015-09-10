@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
+  <link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <h1>{{name}}</h1>
+  <p id="contacts">
+    <a href="mailto:{{email}}">@: {{email}}</span>
+    <a href="http://{{website}}">www: {{website}}</span>
+    <br/>
+    <a href="{{github}}"><span class='symbol'>roundedgithubalt</span>: {{github}}</span>
+    <a href="{{linkedin}}"><span class='symbol'>roundedlinkedin</span>: {{linkedin}}</a>
+  </p>
+  {{content}}
+
+  <p id="watermark">
+    --built with <a href="https://github.com/itajaja/markdawn">markdawn</a>
+  </p>
+</body>
+</html>
