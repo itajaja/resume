@@ -4,7 +4,7 @@ github:https://github.com/itajaja
 linkedin:https://linkedin.com/in/giacomotag
 website:giacomotag.io
 
-Hi, I am Giacomo, a full stack developer, I like crafting software that matters. I am interested in the web, programming language theory and software architecture.
+Hi, I am Giacomo, a full stack developer, I like crafting software that matters. I am interested in the web, programming language theory, and software architecture.
 
 ## Technologies and skills
 
