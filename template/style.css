@@ -50,6 +50,7 @@ ul li:before {
 #watermark {
   float: right;
   margin-top: 7em;
+  font-size: .75em;
 }
 
 /*cutive mono*/
