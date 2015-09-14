@@ -16,10 +16,10 @@ Some tools and practices I use on a daily basis: Grunt, Gulp, CI, git, github-fl
 
 The rest, I hope to learn one day.
 
-## Working Experience
+## Work Experience
 
 ### Software Engineer -- Hyla Soft -- 2013-today
-I am working as a software engineer at Hyla Soft. I focus on building web applications for custom solutions, supervise the software development process and standards company-wise. I leverage and push new web technologies in an enterprise context. Some project and initiatives I led:
+I am currently a software engineer at Hyla Soft. I focus on building web applications to provide solutions for the manufacturing industry, and supervise the software development process and standards company-wide. I leverage and push new web technologies in an enterprise context. Some project and initiatives I led:
 
 - *JSM (2014)*: Design and implementation of an order management system for small part manufacturing shop floors. JSM is focused on simplicity, ease of use and configuration, high modularity and extensibility, modern web interface.
   - Commissioned by a software vendor, JSM integrates and ships with company flagship product.
