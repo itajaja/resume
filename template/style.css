@@ -1,19 +1,22 @@
 body {
   font-family: 'Cutive Mono';
   line-height: 1.4em;
-  font-size: 12px;
+  font-size: 9px;
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-decoration: underline;
+  text-decoration-skip: ink;
 }
 
 h1, h2 {
-  font-family: monospace;
   font-variant: small-caps;
-  text-decoration: underline;
   margin-bottom: 0.4em;
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 
 h3, h4, h5, h6 {
-  font-family: monospace;
   font-style: initial;
   text-decoration: underline;
   font-size: inherit;
@@ -29,11 +32,12 @@ p {
 em {
   font-style: initial;
   text-decoration: underline;
+  text-decoration-skip: ink;
 }
 
 ul li {
   list-style-type: none;
-  margin-left: -10px;
+  margin-left: -.5em;
 }
 
 ul li:before {

@@ -1,9 +1,9 @@
 {
   "format": "Letter",
-  "border": {
+  "margin": {
     "top": ".7in",
-    "right": "1.in",
-    "bottom": "1in",
-    "left": ".7in"
+    "bottom": ".7in",
+    "right": ".5in",
+    "left": ".5in"
   }
 }
